@@ -4,6 +4,8 @@
 
 This project aims to provide an code framework for efficiently solving the inverse homogenization problems to design microstructure.  
 
+This repository is a duplication of [lavenklau/homo3d](https://github.com/lavenklau/homo3d), renamed to avoid potential naming conflicts with the existing repository [3D Homogenization of cellular materials](https://ww2.mathworks.cn/matlabcentral/fileexchange/67457-3d-homogenization-of-cellular-materials) on MATLAB Central.
+
 ### dependency
 
 * OpenVDB
