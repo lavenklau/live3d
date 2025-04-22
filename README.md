@@ -1,4 +1,4 @@
-## An Optimized, Easy-to-use, Open-source GPU Solver for Large-scale Inverse Homogenization Problems
+## LIVE3D:Large-scale InVerse-homogenization Easily-used framework for designing 3D metamaterials
 
 ![image-20241111133209991](https://s2.loli.net/2024/11/11/jpC3TzYMWXArNIB.png)
 
