@@ -21,7 +21,7 @@ conda env create -f environment.yml
 Then you activate it by:
 
 ```bash
-conda activate homo3d
+conda activate live3d
 ```
 
 
@@ -64,7 +64,7 @@ If the conda environment is activated, `cmake` will automatically checkout the d
 optimizing the bulk modulus :
 
 ```shell
-./homo3d -reso 128 -obj bulk -init randc -sym reflect6 -vol 0.3 -mu 0.3
+./live3d -reso 128 -obj bulk -init randc -sym reflect6 -vol 0.3 -mu 0.3
 ```
 
 After the optimization finished, the optimized density field is stored in `<prefix>/rho` in OpenVDB format.
@@ -105,7 +105,7 @@ void runCustom(cfg::HomoConfig config) {
 If you care more about accuracy rather than performance, please checkout the branch `mix-fp64` and uses a smaller tolerance on  the relative residual of FEM equation:
 
 ```bash
-./homo3d -reso 128 -vol 0.1 -relthres 1e-6 # set tolerence to 1e-6
+./live3d -reso 128 -vol 0.1 -relthres 1e-6 # set tolerence to 1e-6
 ```
 
 

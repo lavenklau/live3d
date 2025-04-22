@@ -1,4 +1,4 @@
-name: homo3d
+name: live3d
 channels:
   - conda-forge
   - defaults
